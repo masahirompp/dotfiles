@@ -1,18 +1,19 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "baseUrl": ".",
+    "experimentalDecorators": true,
     "module": "ESNext",
     "moduleResolution": "node",
-    "esModuleInterop": true,
-    "strict": true,
     "noEmit": true,
     "noImplicitThis": true,
-    "experimentalDecorators": true,
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
     },
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ESNext",
     "types": []
   },
+  "include": ["src/index.ts"],
   "exclude": ["node_modules"]
 }
