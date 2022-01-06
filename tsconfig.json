@@ -13,7 +13,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext",
-    "types": []
+    "types": ["node", "./.env"]
   },
   "include": ["src/index.ts"],
   "exclude": ["node_modules"]
