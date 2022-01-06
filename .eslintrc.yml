@@ -14,5 +14,10 @@ rules:
     - 2
     - allowString: false
       allowNumber: false
+settings:
+  import/resolver:
+    alias:
+      map:
+        "@/": "./"
 ignorePatterns:
   - src/**/*.test.ts
